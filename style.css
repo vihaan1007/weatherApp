@@ -1,0 +1,100 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/clear.png);
+    height: 500px;
+}
+
+#V{
+    position: fixed;
+    left: 170px;
+    top: 2px;
+    font-size: 100px;
+    margin: 0px 0px 0px 0px;
+    color: #ffb347;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #4fc3f7;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#b{
+    position: fixed;
+    left: 200px;
+}
+
+p{
+    position: fixed;
+    left: 220px;
+}
+
+#W{
+    top: 215px;
+    color: #cfd8dc;
+}
+
+#F{
+    top: 240px;
+    color: #ff8a65;
+}
+
+div{
+    margin-bottom: 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: 2px;
+}
+
+input[type="radio"]:checked + label {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    box-shadow: 0 0 10px rgb(50, 50, 50);
+}
+
+#select{
+    border: 1px solid whitesmoke;
+    border-radius: 999px;
+
+}
+
+#H{
+    position: fixed;
+    top: 190px;
+    color: #00e5ff;;
+}
+
+#T{
+    position: fixed;
+    top: 100px;
+    color: #ffffff;
+}
+
+#f{
+    position: fixed;
+    bottom: 28px;
+}
+
+#start{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 25px;
+    border: 1px solid blue;
+    border-radius: 999px;
+}
